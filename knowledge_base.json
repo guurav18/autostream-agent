@@ -1,0 +1,220 @@
+{
+  "product_name": "AutoStream",
+  "tagline": "Automated video editing tools for content creators",
+  "description": "AutoStream is an AI-powered video editing SaaS platform designed for YouTubers, Instagram Reels creators, TikTokers, and professional content creators. It automates repetitive editing tasks so you can focus on creating great content.",
+
+  "plans": {
+    "basic": {
+      "name": "Basic Plan",
+      "price": "$29/month",
+      "price_annual": "$23/month (billed $276/year)",
+      "videos_per_month": 10,
+      "max_video_length": "15 minutes",
+      "resolution": "720p HD",
+      "storage": "20 GB cloud storage",
+      "features": [
+        "10 videos per month",
+        "720p HD resolution export",
+        "20 GB cloud storage",
+        "Basic auto-cut and trim",
+        "Background noise removal",
+        "15 pre-built templates",
+        "Auto thumbnail generator (basic)",
+        "Email support (48-hour response)",
+        "1 user seat",
+        "Mobile app access",
+        "Watermark on exported videos"
+      ],
+      "not_included": [
+        "4K export",
+        "AI captions / subtitles",
+        "Brand kit / custom branding",
+        "24/7 support",
+        "Team collaboration",
+        "API access",
+        "Advanced analytics",
+        "Direct social media publishing"
+      ]
+    },
+    "pro": {
+      "name": "Pro Plan",
+      "price": "$79/month",
+      "price_annual": "$63/month (billed $756/year)",
+      "videos_per_month": "Unlimited",
+      "max_video_length": "4 hours",
+      "resolution": "4K Ultra HD",
+      "storage": "500 GB cloud storage",
+      "features": [
+        "Unlimited videos per month",
+        "4K Ultra HD resolution export",
+        "500 GB cloud storage",
+        "AI-powered auto-edit (scene detection, jump cuts)",
+        "AI captions & subtitles (40+ languages, ~95% accuracy)",
+        "Auto background removal (AI green screen)",
+        "Advanced noise cancellation & audio enhancement",
+        "100+ premium templates",
+        "Brand kit (custom fonts, colors, logos)",
+        "AI thumbnail generator with A/B testing",
+        "24/7 priority chat & phone support",
+        "Up to 5 user seats (team collaboration)",
+        "No watermark on exports",
+        "Direct publish to YouTube, TikTok, Instagram, Facebook, LinkedIn",
+        "Advanced analytics & performance dashboard",
+        "REST API access",
+        "Custom intro/outro animations",
+        "Content calendar & post scheduler"
+      ],
+      "not_included": [
+        "White-label reselling",
+        "Dedicated account manager",
+        "Custom AI model training",
+        "Unlimited team seats"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Plan",
+      "price": "Custom pricing — contact sales",
+      "videos_per_month": "Unlimited",
+      "resolution": "Up to 8K",
+      "storage": "Unlimited",
+      "features": [
+        "Everything in Pro",
+        "Unlimited team seats",
+        "Dedicated account manager",
+        "White-label option",
+        "Custom AI model training on your content",
+        "99.9% uptime SLA",
+        "SSO / SAML login",
+        "On-premise deployment option",
+        "Priority API support & custom integrations",
+        "Quarterly business reviews"
+      ]
+    }
+  },
+
+  "policies": {
+    "refund": "No refunds after 7 days of purchase. Within the first 7 days, full refund is available — no questions asked.",
+    "free_trial": "Both Basic and Pro plans include a 7-day free trial. No credit card required to start.",
+    "support": {
+      "basic": "Email support with 48-hour response time, Mon–Fri 9AM–6PM EST.",
+      "pro": "24/7 priority chat and phone support, average response under 2 hours.",
+      "enterprise": "Dedicated account manager + 24/7 support with 30-minute SLA."
+    },
+    "cancellation": "Cancel anytime from your dashboard. Access continues until the end of the billing period.",
+    "plan_changes": "Upgrade anytime (immediate, prorated billing). Downgrade takes effect next billing cycle.",
+    "data_privacy": "AutoStream does not sell or share your video data. All videos are encrypted at rest (AES-256) and in transit (TLS 1.3).",
+    "storage_after_cancel": "Videos are kept in cloud for 90 days after cancellation. Download anytime before permanent deletion.",
+    "annual_discount": "Annual billing saves ~20%. Basic: $23/month ($276/year). Pro: $63/month ($756/year).",
+    "team_seats": "Pro plan includes up to 5 seats. Each member gets individual login. Admins manage permissions from team dashboard."
+  },
+
+  "features_detail": {
+    "ai_captions": {
+      "name": "AI Captions & Subtitles",
+      "available_on": ["Pro", "Enterprise"],
+      "description": "Auto-generate captions in 40+ languages with ~95% accuracy. Fully editable with custom fonts and colors. Export as SRT/VTT for YouTube, TikTok, Instagram."
+    },
+    "brand_kit": {
+      "name": "Brand Kit",
+      "available_on": ["Pro", "Enterprise"],
+      "description": "Upload your logo, set brand colors and fonts. AutoStream applies your identity to every export — intros, outros, lower thirds, captions."
+    },
+    "direct_publish": {
+      "name": "Direct Publish Integration",
+      "available_on": ["Pro", "Enterprise"],
+      "platforms": ["YouTube", "TikTok", "Instagram Reels", "Facebook", "LinkedIn"],
+      "description": "Publish and schedule content directly from AutoStream. Manage your full content calendar in one place."
+    },
+    "analytics": {
+      "name": "Analytics Dashboard",
+      "available_on": ["Pro", "Enterprise"],
+      "description": "Track views, watch time, engagement, and subscriber growth across connected platforms. Get AI-generated content recommendations."
+    },
+    "api_access": {
+      "name": "REST API Access",
+      "available_on": ["Pro", "Enterprise"],
+      "description": "Automate video uploads, edits, and exports programmatically. Great for agencies and developer workflows."
+    },
+    "short_form": {
+      "name": "Short-Form Content Tools",
+      "available_on": ["Basic", "Pro", "Enterprise"],
+      "description": "Templates and aspect ratios for vertical 9:16 content (Reels, TikTok, Shorts). AI highlight detection to auto-trim long videos into short clips."
+    }
+  },
+
+  "supported_formats": {
+    "upload": ["MP4", "MOV", "AVI", "MKV", "WebM", "FLV"],
+    "export": ["MP4 (H.264 / H.265)", "MOV"],
+    "caption_export": ["SRT", "VTT"]
+  },
+
+  "platforms_supported": [
+    "YouTube", "Instagram (Reels & Stories)", "TikTok",
+    "Facebook", "LinkedIn", "Twitter / X", "Snapchat"
+  ],
+
+  "faq": [
+    {
+      "question": "Is there a free trial?",
+      "answer": "Yes! Both Basic and Pro plans have a 7-day free trial — no credit card required. Full feature access during trial."
+    },
+    {
+      "question": "Does AutoStream add a watermark?",
+      "answer": "Basic plan exports have an AutoStream watermark. Pro and Enterprise exports are completely watermark-free."
+    },
+    {
+      "question": "How accurate are AI captions?",
+      "answer": "About 95% accuracy on clear audio. Captions are fully editable before you export."
+    },
+    {
+      "question": "Can I use AutoStream for TikTok and Reels?",
+      "answer": "Yes! AutoStream has vertical 9:16 templates and AI highlight detection to create short clips from long videos."
+    },
+    {
+      "question": "How many team members can I add?",
+      "answer": "Pro plan supports up to 5 seats. Enterprise supports unlimited seats."
+    },
+    {
+      "question": "What video formats can I upload?",
+      "answer": "We accept MP4, MOV, AVI, MKV, WebM, and FLV. Exports are in MP4 or MOV."
+    },
+    {
+      "question": "Is my content safe?",
+      "answer": "Yes. Videos are encrypted at rest (AES-256) and in transit (TLS 1.3). We never sell your data."
+    },
+    {
+      "question": "Can I cancel anytime?",
+      "answer": "Yes. Cancel from your dashboard anytime. Access continues till end of billing period."
+    },
+    {
+      "question": "Is there a video length limit?",
+      "answer": "Basic: up to 15 minutes. Pro: up to 4 hours. Enterprise: no limit."
+    },
+    {
+      "question": "What happens to my videos after I cancel?",
+      "answer": "Your videos are stored for 90 days post-cancellation. Download them anytime before permanent deletion."
+    },
+    {
+      "question": "Do you offer annual billing discounts?",
+      "answer": "Yes! Save ~20% with annual billing. Basic becomes $23/month, Pro becomes $63/month."
+    },
+    {
+      "question": "Is there an API?",
+      "answer": "Yes, REST API access is available on Pro and Enterprise plans for automating workflows."
+    },
+    {
+      "question": "Can I publish directly to YouTube or TikTok?",
+      "answer": "Yes, on Pro and Enterprise plans you can publish and schedule directly to YouTube, TikTok, Instagram, Facebook, and LinkedIn."
+    },
+    {
+      "question": "Can I upgrade or downgrade my plan?",
+      "answer": "Yes. Upgrades are immediate with prorated billing. Downgrades apply at the next billing cycle."
+    }
+  ],
+
+  "comparison_summary": {
+    "best_for_basic": "Solo creators uploading under 10 videos/month who want simple, affordable editing without advanced AI features.",
+    "best_for_pro": "Serious YouTubers, TikTokers, and small agencies who need unlimited editing, AI captions, branding tools, and team collaboration.",
+    "best_for_enterprise": "Large media companies and agencies needing custom workflows, white-labeling, and dedicated support."
+  }
+}
