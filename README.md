@@ -8,7 +8,7 @@ Built as part of the **ServiceHive / Inflx** Machine Learning Intern assignment.
 
 ## 🚀 How to Run Locally
 
-### Prerequisites
+### Prerequisites lucky github
 - Python 3.10+
 - A Google Generative AI API key ([get one here](https://aistudio.google.com/app/apikey))
 

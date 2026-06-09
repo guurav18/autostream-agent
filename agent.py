@@ -66,7 +66,8 @@ FAQ:"""
     return text.strip()
 
 
-# 2. TOOL — Mock Lead Capture
+# 2. TOOL — Mock Lead Capturegithuband badnd sund
+
 
 @tool
 def mock_lead_capture(name: str, email: str, platform: str) -> str:
